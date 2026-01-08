@@ -39,7 +39,7 @@ source tuiai/bin/activate
 ```
 pip install textual openai
 ```
-###  Configure Your API Key
+###  Configure Your API Key in "config.json"
 ```
 {
   "api_key": "YOUR_OPENROUTER_API_KEY",
@@ -47,4 +47,3 @@ pip install textual openai
 }
 ```
 
-ذذ
