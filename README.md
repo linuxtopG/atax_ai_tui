@@ -25,5 +25,26 @@ A terminal-based chat application with a **Textual User Interface (TUI)** that a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-chat-tui.git
-cd ai-chat-tui
+git clone https://github.com/linuxtopG/atax_ai_tui.git
+cd atax_ai_tui.git
+```
+####  vnve setup
+```
+python3 -m venv tuiai
+```
+```
+source tuiai/bin/activate
+```
+### Install Required Libraries >>Create a config.json file in the project directory:
+```
+pip install textual openai
+```
+###  Configure Your API Key
+```
+{
+  "api_key": "YOUR_OPENROUTER_API_KEY",
+  "model": "openchat/openchat-7b:free"
+}
+```
+
+ذذ
